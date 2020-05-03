@@ -1,0 +1,29 @@
+body{
+	font-size: 17px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+img {
+	max-height: 600px;
+    object-fit: cover;
+}
+
+.btn{
+    border-radius:0%; /*Square Buttons*/
+}
+
+ul.inside_bullet {
+	list-style-position: inside; /*Align lists*/
+}
+
+input.line{ /*Line Input*/
+	background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+input.form-control.line2{ /*Line Input*/
+	background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+}
